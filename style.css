@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: 1px solid green;
+    width: 220px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(194, 231, 255);
+  }
+  
+  input {
+    height: 30px;
+    width: 213px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .number,
+  .clear,
+  .decimal,
+  .equal,
+  .operator,
+  .backspace {
+    height: 40px;
+    width: 50px;
+  }
+  
+  .zero-row {
+    margin-right: 3px;
+    margin-left: auto;
+  }
+  
+  .number,
+  .decimal {
+    background-color: rgb(60, 175, 250);
+  }
+  
+  .number:hover,
+  .decimal:hover {
+    background-color: rgb(27, 135, 184);
+  }
+  
+  .equal {
+    background-color: rgb(230, 168, 0);
+  }
+  
+  .equal:hover {
+    background-color: rgb(0, 77, 128);
+  }
+  
+  .clear,
+  .backspace {
+    background-color: rgb(255, 255, 156);
+  }
+  
+  .clear:hover,
+  .backspace:hover {
+    background-color: rgb(169, 21, 21);
+  }
+  
+  .operator {
+    background-color: rgb(55, 127, 130);
+  }
+  
+  .operator:hover {
+    background-color: rgb(9, 101, 104);
+  }
